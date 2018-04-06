@@ -12,19 +12,19 @@ from watson_developer_cloud import VisualRecognitionV3
 #print(zipfile)
 #print(positive)
 #print(negative)
-with open('api_key') as rawkey:
-    key=rawkey.readlines.strip()
+'''with open('api_key') as rawkey:
+    key=rawkey.readlines().strip()
 print(key)
-
 '''
+
 visual_recognition = VisualRecognitionV3(
     '2016-05-20',
-    api_key=key)
+    api_key='988d558c4a7e45a98f2aa9f1d52a66d5be30287d')
 
-with open('~/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Non_enriched/high_stress_snips_IMG_7575_non_rotated.zip', 'rb') as high_stress, open('~/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Non_enriched/non_high_stress_snips_IMG_7575_initial_negatives.zip', 'rb') as non_high_stress:
+with open('high_stress_snips_IMG_7575_non_rotated.zip', 'rb') as high_stress, open('non_high_stress_snips_IMG_7575_initial_negatives.zip', 'rb') as non_high_stress:
     model = visual_recognition.create_classifier(
         sys.argv[1],
         highstress_positive_examples=high_stress,
         negative_examples=non_high_stress)
 print(json.dumps(model, indent=2))
-'''
+
