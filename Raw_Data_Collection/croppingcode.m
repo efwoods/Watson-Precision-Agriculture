@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 %% Databasing
-treespecies = {'Spirea','Hydrangea Paniculata','Cornus Obliqua','Hydrangea Quercifolia','Buddleia','Physocarpus'}; %list of tree species; could possible be an xlsread statment later on
+treespecies = {'Spirea','Hydrangea Paniculata','Cornus Obliqua','Hydrangea Quercifolia','Buddleia','Physocarpus','Nondescript'}; %list of tree species; could possible be an xlsread statment later on
 treecondition = {'High Water Stress','Low Water Stress', 'Low Phosphorus Fertilizer','None'; 'red','yellow','blue','black'}; % relates tree condition to marking color
 FLTnum = {'Flight 1','Flight 2'}; %database of flight numbers; Could be later made into xlsread
 %% File Selection
