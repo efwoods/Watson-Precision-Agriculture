@@ -1,0 +1,70 @@
+{
+  "images": [
+    {
+      "image": "../images/1_cropped.jpg", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.729, 
+              "class": "pulsar star", 
+              "type_hierarchy": "/nature/pulsar star"
+            }, 
+            {
+              "score": 0.729, 
+              "class": "nature"
+            }, 
+            {
+              "score": 0.61, 
+              "class": "supernova"
+            }, 
+            {
+              "score": 0.534, 
+              "class": "ascidian (minute marine animal)", 
+              "type_hierarchy": "/animal/ascidian (minute marine animal)"
+            }, 
+            {
+              "score": 0.534, 
+              "class": "animal"
+            }, 
+            {
+              "score": 0.5, 
+              "class": "true slime mold", 
+              "type_hierarchy": "/fungus/true slime mold"
+            }, 
+            {
+              "score": 0.5, 
+              "class": "fungus"
+            }, 
+            {
+              "score": 0.591, 
+              "class": "microorganism"
+            }, 
+            {
+              "score": 0.93, 
+              "class": "reddish orange color"
+            }, 
+            {
+              "score": 0.634, 
+              "class": "ultramarine color"
+            }
+          ], 
+          "classifier_id": "default", 
+          "name": "default"
+        }, 
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "highstress_752362817", 
+          "name": "highstress"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 1
+}

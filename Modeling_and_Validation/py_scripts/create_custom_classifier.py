@@ -21,10 +21,10 @@ visual_recognition = VisualRecognitionV3(
     '2016-05-20',
     api_key='988d558c4a7e45a98f2aa9f1d52a66d5be30287d')
 
-with open('high_stress_snips_IMG_7575_non_rotated.zip', 'rb') as high_stress, open('non_high_stress_snips_IMG_7575_initial_negatives.zip', 'rb') as non_high_stress:
+with open(sys.argv[2], 'rb') as positive, open(sys.argv[3], 'rb') as negative:
     model = visual_recognition.create_classifier(
         sys.argv[1],
-        highstress_positive_examples=high_stress,
-        negative_examples=non_high_stress)
+        positive_positive_examples=positive,
+        negative_examples=negative)
 print(json.dumps(model, indent=2))
 
