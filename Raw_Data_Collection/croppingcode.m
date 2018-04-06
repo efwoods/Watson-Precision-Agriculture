@@ -1,12 +1,8 @@
-% Hey JP!
-% What's UP!
-
-
 clc;
 clear all;
 close all;
 %% Databasing
-treespecies = {'Spirea','Hydrangea Paniculata','Cornus Obliqua','Hydrangea Quercifolia','Buddleia','Physocarpus'}; %list of tree species; could possible be an xlsread statment later on
+treespecies = {'Spirea','Hydrangea Paniculata','Cornus Obliqua','Hydrangea Quercifolia','Buddleia','Physocarpus','Nondescript'}; %list of tree species; could possible be an xlsread statment later on
 treecondition = {'High Water Stress','Low Water Stress', 'Low Phosphorus Fertilizer','None'; 'red','yellow','blue','black'}; % relates tree condition to marking color
 FLTnum = {'Flight 1','Flight 2'}; %database of flight numbers; Could be later made into xlsread
 %% File Selection
@@ -17,7 +13,7 @@ FLTnumploted = listdlg('Promptstring','Select a Flight Number','SelectionMode','
 prompt = {'Enter how many trees to be cropped'};
 title = 'Number of trees';
 %% Directory Creation
-selpath = fullfile(FLTnum{FLTnumploted},treespecies{Speciesbeingploted},treecondition{treeconditionploted,1},'.PNG'); % creates path
+selpath = fullfile(FLTnum{FLTnumploted},treespecies{Speciesbeingploted},treecondition{1,treeconditionploted}); % creates path
 status = mkdir(selpath); %selects the created path
 
 if status == 0 %this whole if statement forces the user to select a premade directory. The reason for the switch is to insure the user sees the warning dialogue
@@ -37,14 +33,22 @@ imshow(im);
 a=1;
 while a <= uservalue
     [crop,RECT]=imcrop; % Cropping the region we are slected using rectangular window %Saves cropping recatangle as RECT
-    beta = sprintf('%.0f_cropped.jpg',a); %%% Obsolute code
-    imwrite(crop,selpath,beta); % The syntax is imwrite( Variable to be saved, file name for the new file)%
+    beta = sprintf('%0.f_%s_%s_%s.png',a,FLTnum{FLTnumploted},treespecies{Speciesbeingploted},treecondition{1,treeconditionploted}); 
+    selpath = fullfile(FLTnum{FLTnumploted},treespecies{Speciesbeingploted},treecondition{1,treeconditionploted},beta);
+    imwrite(crop,selpath); % The syntax is imwrite( Variable to be saved, file name for the new file)%
     rectangle('Position',RECT,'FaceColor',treecondition{2,treeconditionploted}) % Adds a rectangle onto the figure
     a=a+1;
 end
 outputfig = questdlg('Would you like to save the current figure?'); %asks the user if they want to save the figure created with the crop rectangles added
-% switch outputfig
-%     case 'Yes'
-%         outputfigname = 
+switch outputfig
+    case 'Yes'
+        t = datestr(now,'mmm.dd,yyyy HH:MM:SS');
+        outputfigname = sprintf('%s_%s_%s.png',FLTnum{FLTnumploted},treespecies{Speciesbeingploted});
+        saveas(gcf,outputfigname,'png'); %saves the figure
+    case 'No'
+        error('Program has ended')
+end
+
+        
      
 close all;
