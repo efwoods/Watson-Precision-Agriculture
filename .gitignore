@@ -1,0 +1,14 @@
+gnore all zipped folders
+*.zip
+
+# ignore all images
+*.JPG
+*.jpg
+*.tif
+
+# ignore desktop.ini
+desktop.ini
+
+# ignore Microsoft office products
+*.xlsx
+*.docx
