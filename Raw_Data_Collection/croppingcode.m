@@ -1,12 +1,14 @@
+%%%%%%% MAKE SURE TO COMPLETE THE WHOLE CLASSIFICATION SET BEFORE STOPPING %%%%%%%
+%%%%%%% ZOOM ALL THE WAY OUT BEFORE LAST CROP %%%%%%%
 clc;
 clear all;
 close all;
 %% Databasing
 treespecies = {'Spirea','Hydrangea Paniculata','Cornus Obliqua','Hydrangea Quercifolia','Buddleia','Physocarpus','Nondescript'}; %list of tree species; could possible be an xlsread statment later on
-treecondition = {'High Water Stress','Low Water Stress', 'Low Phosphorus Fertilizer','None'; 'red','yellow','blue','black'}; % relates tree condition to marking color
+treecondition = {'High Water Stress','Low Water Stress', 'Low Phosphorus Fertilizer','Healthy'; 'red','yellow','blue','black'}; % relates tree condition to marking color
 FLTnum = {'Flight 1','Flight 2'}; %database of flight numbers; Could be later made into xlsread
 %% File Selection
-[file,path] = uigetfile('*.tif'); %User selects file; name is saved as a string
+[file,path] = uigetfile('*.jpg'); %User selects file; name is saved as a string
 Speciesbeingploted = listdlg('Promptstring','Select a Tree Species','SelectionMode','single','ListString',treespecies); %Numeric return on tree species selected
 treeconditionploted = listdlg('Promptstring','Select a Tree Condition','SelectionMode','single','ListString',treecondition(1,:)); %Numeric return on tree condtion selected
 FLTnumploted = listdlg('Promptstring','Select a Flight Number','SelectionMode','single','ListString',FLTnum);
