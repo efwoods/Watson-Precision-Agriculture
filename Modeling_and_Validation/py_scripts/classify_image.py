@@ -12,7 +12,7 @@ with open(sys.argv[1], 'rb') as images_file:
     classes = visual_recognition.classify(
         images_file,
         parameters=json.dumps({
-            'owners': ['me', 'IBM'], 
+            'owners': ['me'],#, 'IBM'], 
 			'threshold': 0.0,
 #			"classifier_id": "high_stress_1739667928"
         }))

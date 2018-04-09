@@ -39,13 +39,4 @@ for folderName, subfolders, filenames in os.walk(workingDirectory):
 				img2.save(saveName)
 				shutil.move(saveName, savingDirectory)
 			shutil.copy(filename, savingDirectory)
-
-#	print('Creating %s... ' % (zipFilename))
 	print('')
-
-'''
-# Load the original image:
-img = Image.open(sys.argv[1])
-#for x in range(0, 360, 5)
-img2 = img.rotate(x, expand=True)
-'''
