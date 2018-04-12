@@ -6,9 +6,9 @@ import sys, os, shutil, zipfile
 # Import Pillow:
 from PIL import Image
 
-workingDirectory = '/home/efwoods/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Data/Flight 1/Spirea/Low Water Stress'
+workingDirectory = '/home/efwoods/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Data/Flight 1/Spirea/Healthy'
 
-savingDirectory = '/home/efwoods/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Data/Flight 1/Spirea/Rotated_Low_Water_Stress'
+savingDirectory = '/home/efwoods/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Data/Flight 1/Spirea/Rotated_Cropped_Healthy_Spirea'
 
 # walks through the folder of the current working directory, then each subfolder, then each file. 
 
@@ -32,7 +32,7 @@ for folderName, subfolders, filenames in os.walk(workingDirectory):
 			count += 1
 			img = Image.open(filename)
 			for x in range(5, 360, 5):
-				img2 = img.rotate(x, expand=True)
+				img2 = img.rotate(x)
 				extension = len(filename) - 4	# the number of characters minus the length of the extension
 				truncated_filename = filename[:extension]	# the truncated name of the file
 				saveName = truncated_filename + '_rotation_degree_' + str(x) + '.png'
@@ -40,3 +40,11 @@ for folderName, subfolders, filenames in os.walk(workingDirectory):
 				shutil.move(saveName, savingDirectory)
 			shutil.copy(filename, savingDirectory)
 	print('')
+
+import json
+with open('data.json', 'w') as outfile:
+    json.dump({
+    "age":100,
+    "name":"mkyong.com",
+    "messages":["msg 1","msg 2","msg 3"]
+     }, outfile)
