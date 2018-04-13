@@ -16,6 +16,7 @@ from sklearn.preprocessing import label_binarize
 from sklearn.multiclass import OneVsRestClassifier
 from scipy import interp
 from parser import parse
+from sklearn.metrics import classification_report,confusion_matrix
 import sys, argparse
 
 #Step 1,
@@ -58,7 +59,6 @@ def calcRocSingle(y_test, y_score):
     return [fpr,tpr,roc_auc]
 #Step 3
 #plot the data
-
 def plotRoc(info):
 
     fpr = info[0]
@@ -91,4 +91,12 @@ if __name__ == '__main__':
     watson_data = np.asarray(parsed_data[0])
     ground_truth = np.asarray(parsed_data[1])
     data = calcRocSingle(ground_truth,watson_data)
-    plotRoc(data)
+    pred = []
+    for i in watson_data:
+        if(i > .5):
+            pred.append(1)
+        else:
+            pred.append(0)
+
+    print(confusion_matrix(ground_truth,pred))
+    #plotRoc(data)
