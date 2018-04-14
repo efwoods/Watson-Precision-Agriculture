@@ -83,8 +83,9 @@ if ((positive_count == 0) or (positive_count == positive_image_total) or (negati
 else:
 	# create a folder of processed data with three subfolders: negative examples, positive examples, test images made of negative and positive images
 	locate = "/" # may need to make /Flight
-	baseDirectory = args.p[:args.p.rfind(locate)] 
-	targetName = args.p[args.p.rfind(locate)+1:]
+	baseDirectory = args.p[:args.p.rfind(locate)]
+	temporary =  args.p[:args.p.rfind(locate)]
+	targetName = temporary[temporary.rfind(locate)+1:]
 	parentDirectory = baseDirectory + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
 	positiveTrainingDirectory = parentDirectory + "/PostiveTrainingData" + "_" + targetName
 	negativeTrainingDirectory = parentDirectory + "/NegativeTrainingData" + "_" + targetName
