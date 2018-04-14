@@ -31,6 +31,7 @@ def process(workDirectory, trainingDirectory, testDirectory, split_count):
 			rotate(filename, trainingDirectory)
 			count += 1		
 		else:
+			print(filename)
 			rotate(filename, testDirectory)
 '''	
 			with open('truth.json', 'w') as outfile:
@@ -41,7 +42,7 @@ def process(workDirectory, trainingDirectory, testDirectory, split_count):
 			    "score": '-1' 
 			     }, outfile)
 '''
-	print('')
+#	print('')
 
 
 #print(args)
@@ -76,7 +77,7 @@ negative_image_total = len(os.listdir(args.n))
 percent = float(args.s)/100 # calculate the percentage of images to be used as positive examples
 positive_count = int(positive_image_total * percent) # the integer number of images that will be used as positive examples
 negative_count = int(negative_image_total * percent)
-if ((positive_count == 0) || (positive_count == positive_image_total) || (negative_count == 0) || (negative_count == negative_image_total): # positive_count must be between 0 and the total number of images in the file to leave data for the test data
+if ((positive_count == 0) or (positive_count == positive_image_total) or (negative_count == 0) or (negative_count == negative_image_total)): # positive_count must be between 0 and the total number of images in the file to leave data for the test data
 	print("Error incorrect split. Please choose a different split.")
 	sys.exit(1) 	
 else:
@@ -84,7 +85,7 @@ else:
 	locate = "/" # may need to make /Flight
 	baseDirectory = args.p[:args.p.rfind(locate)] 
 	targetName = args.p[args.p.rfind(locate)+1:]
-	parentDirectory = baseDirectory + "/"+ targetName + "_processed" + "_" + percent + "%split"
+	parentDirectory = baseDirectory + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
 	positiveTrainingDirectory = parentDirectory + "/PostiveTrainingData" + "_" + targetName
 	negativeTrainingDirectory = parentDirectory + "/NegativeTrainingData" + "_" + targetName
 	testingDirectory = parentDirectory + "/TestData" + "_" + targetName
@@ -103,7 +104,7 @@ else:
 	shutil.make_archive(negativeTrainingDirectory, 'zip')
 	shutil.make_archive(testingDirectory, 'zip')
 	src = parentDirectory
-	dst = args.d + "/"+ targetName + "_processed" + "_" + percent + "%split"
+	dst = args.d + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
 	shutil.copytree(src, dst, symlinks=False, ignore=None)
 	shutil.rmtree(src)
 
