@@ -1,7 +1,7 @@
 # Input: Void
 # Output: a rotated image
 
-import sys, os, shutil, zipfile, json, argparse
+import sys, os, shutil, zipfile, json, argparse, re
 
 # Import Pillow:
 from PIL import Image
@@ -19,20 +19,20 @@ def rotate(filename, finalDirectory):
 		shutil.move(saveName, finalDirectory)
 
 # first pass positiveTrainingDirectory with positive split_count then negativeTrainingDirectory
-def process(workDirectory, trainingDirectory, testDirectory, split_count):	
-	count = 0
-	for folderName, subfolders, filenames in os.walk(workDirectory):
-		print('The current folder is ' + folderName)
-	for subfolder in subfolders:
-		print('SUBFOLDER OF ' + folderName + ': ' + subfolder)
-	for filename in filenames:
-		print('FILE INSIDE ' + folderName + ': ' + filename)
+def process(trainingDirectory, testDirectory, split_count):
+	rootDir = '.'
+	for dirName, subdirList, fileList in os.walk(rootDir, topdown=False):
+    		print('Found directory: %s' % dirName)
+		count = 0
+    	for fname in fileList:
+        	print('\t%s' % fname)
+		
 		if count < split_count:
-			rotate(filename, trainingDirectory)
+			rotate(fname, trainingDirectory)
 			count += 1		
 		else:
-			print(filename)
-			rotate(filename, testDirectory)
+			print(fname)
+			rotate(fname, testDirectory)
 '''	
 			with open('truth.json', 'w') as outfile:
 			    json.dump({
@@ -83,32 +83,78 @@ if ((positive_count == 0) or (positive_count == positive_image_total) or (negati
 else:
 	# create a folder of processed data with three subfolders: negative examples, positive examples, test images made of negative and positive images
 	locate = "/" # may need to make /Flight
-	baseDirectory = args.p[:args.p.rfind(locate)]
-	temporary =  args.p[:args.p.rfind(locate)]
-	targetName = temporary[temporary.rfind(locate)+1:]
-	parentDirectory = baseDirectory + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
-	positiveTrainingDirectory = parentDirectory + "/PostiveTrainingData" + "_" + targetName
-	negativeTrainingDirectory = parentDirectory + "/NegativeTrainingData" + "_" + targetName
-	testingDirectory = parentDirectory + "/TestData" + "_" + targetName
+	cwd = os.getcwd()
+	positivePath = cwd[:-10] + args.p[3:]
+	negativePath = cwd[:-10] + args.n[3:]
+	basePath = cwd[:cwd.rfind("/")] + "/"
 	
-	os.mkdir(parentDirectory)
-	os.mkdir(positiveTrainingDirectory)
-	os.mkdir(negativeTrainingDirectory)
-	os.mkdir(testingDirectory)
+	positiveSaveDirectory = args.p[args.p.find(locate):args.p.rfind(locate)]
+	positiveSaveDirectory = positiveSaveDirectory.replace("/", " ")
+	positiveSaveDirectory = positiveSaveDirectory.replace(" ", "_")
+	positiveSaveDirectory = positiveSaveDirectory[1:]
+	
+	parentDir = basePath + positiveSaveDirectory + "_classifier"
+	os.mkdir(parentDir)
+	os.chdir(parentDir)
+	
+	positiveSaveDirectory = parentDir + "/" + positiveSaveDirectory
+	
+	testSaveDirectory = positiveSaveDirectory + "_test"
 
-	process(args.p, positiveTrainingDirectory, testingDirectory, positive_count)
-	process(args.n, negativeTrainingDirectory, testingDirectory, negative_count)
+	negativeSaveDirectory = args.n[args.n.find(locate):args.n.rfind(locate)]
+	negativeSaveDirectory = negativeSaveDirectory.replace("/", " ")
+	negativeSaveDirectory = negativeSaveDirectory.replace(" ", "_")
+	negativeSaveDirectory = negativeSaveDirectory[1:]
+	negativeSaveDirectory = parentDir + "/" + negativeSaveDirectory
 
+#args.p[args.p.find(locate):args.p.rfind(locate)]
+
+#	baseDirectory = args.p[:args.p.rfind(locate)]
+#	baseDirectory[baseDirectory.find("/"):baseDirectory.rfind("/")]
+#	temporary =  args.p[:args.p.rfind(locate)]
+#
+#	targetName = temporary[temporary.rfind(locate)+1:]
+#	parentDirectory = baseDirectory + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
+#	positiveTrainingDirectory = parentDirectory + "/PostiveTrainingData" + "_" + targetName
+#	negativeTrainingDirectory = parentDirectory + "/NegativeTrainingData" + "_" + targetName
+#	testingDirectory = parentDirectory + "/TestData" + "_" + targetName
+	
+#	os.mkdir(parentDirectory)
+	os.mkdir(positiveSaveDirectory)
+	os.mkdir(negativeSaveDirectory)
+	os.mkdir(testSaveDirectory)
+
+	os.chdir(positivePath)
+	process(positiveSaveDirectory, testSaveDirectory, positive_count)
+	os.chdir(negativePath)
+	process(negativeSaveDirectory, testSaveDirectory, negative_count)
+'''
 	# zip folders for Modeling and Validation
-	os.chdir(parentDirectory)
-	shutil.make_archive(positiveTrainingDirectory, 'zip')
-	shutil.make_archive(negativeTrainingDirectory, 'zip')
-	shutil.make_archive(testingDirectory, 'zip')
-	src = parentDirectory
-	dst = args.d + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
-	shutil.copytree(src, dst, symlinks=False, ignore=None)
-	shutil.rmtree(src)
+	os.chdir(parentDir)
+	src = parentDir
 
+	print('Beginning Zipping')
+
+	shutil.make_archive(positiveSaveDirectory, 'zip')
+
+	print('Zipping Test')	
+		
+	shutil.make_archive(testSaveDirectory, 'zip')
+	print('Beginning Zipping  Negative')
+	shutil.make_archive(negativeSaveDirectory, 'zip')
+
+	
+	print('Completed zipping')
+	src = parentDir
+	dst = '/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers'
+#	dst = args.d + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
+
+	shutil.copytree(src, dst, symlinks=False, ignore=None)
+	print('Completed copying tree')
+	shutil.rmtree(src)
+'''
+	print('Rotate.py Complete, Meatbag')
+	
 #workingDirectory = args.p
 #os.chdir(workingDirectory)	# move to the workingDirectory
 
