@@ -1,0 +1,312 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/13_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_185.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_85.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/13_Flight 1_Cornus Obliqua_None_rotation_degree_240.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_25.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/3_Flight 1_Cornus Obliqua_None_rotation_degree_260.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/3_Flight 1_Cornus Obliqua_None_rotation_degree_185.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/13_Flight 1_Cornus Obliqua_None_rotation_degree_300.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_335.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_105.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_60.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_55.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_15.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/3_Flight 1_Cornus Obliqua_None_rotation_degree_345.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/13_Flight 1_Cornus Obliqua_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/3_Flight 1_Cornus Obliqua_None_rotation_degree_120.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/3_Flight 1_Cornus Obliqua_None_rotation_degree_150.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/3_Flight 1_Cornus Obliqua_None_rotation_degree_35.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2.zip/Flight_1_Cornus_Obliqua_High_Water_Stress_test_2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_140.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }
+  ], 
+  "warnings": [
+    {
+      "description": "Max number of images (20) reached", 
+      "warning_id": "batch_limit_reached"
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 20
+}
