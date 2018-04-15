@@ -3,6 +3,7 @@
 
 import sys, os, shutil, zipfile, json, argparse, re
 
+from truth.py import find_truth
 # Import Pillow:
 from PIL import Image
 
@@ -128,31 +129,36 @@ else:
 	process(positiveSaveDirectory, testSaveDirectory, positive_count)
 	os.chdir(negativePath)
 	process(negativeSaveDirectory, testSaveDirectory, negative_count)
-'''
-	# zip folders for Modeling and Validation
-	os.chdir(parentDir)
-	src = parentDir
 
-	print('Beginning Zipping')
+	# create ground_truth json file 
+	os.chdir(testSaveDirectory)
+	find_truth()
+	
 
-	shutil.make_archive(positiveSaveDirectory, 'zip')
-
-	print('Zipping Test')	
-		
-	shutil.make_archive(testSaveDirectory, 'zip')
-	print('Beginning Zipping  Negative')
-	shutil.make_archive(negativeSaveDirectory, 'zip')
+#	# zip folders for Modeling and Validation
+#	os.chdir(parentDir)
+#	src = parentDir
+#
+#	print('Beginning Zipping')
+#
+#	shutil.make_archive(positiveSaveDirectory, 'zip')
+#
+#	print('Zipping Test')	
+#		
+#	shutil.make_archive(testSaveDirectory, 'zip')
+#	print('Beginning Zipping  Negative')
+#	shutil.make_archive(negativeSaveDirectory, 'zip')
 
 	
-	print('Completed zipping')
-	src = parentDir
-	dst = '/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers'
+#	print('Completed zipping')
+#	src = parentDir
+#	dst = '/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers'
 #	dst = args.d + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
 
-	shutil.copytree(src, dst, symlinks=False, ignore=None)
-	print('Completed copying tree')
-	shutil.rmtree(src)
-'''
+#	shutil.copytree(src, dst, symlinks=False, ignore=None)
+#	print('Completed copying tree')
+#	shutil.rmtree(src)
+
 	print('Rotate.py Complete, Meatbag')
 	
 #workingDirectory = args.p
