@@ -19,17 +19,37 @@
 import json
 import numpy as np
 import sys, argparse
+import os
 
-def parse(p_file):
+def parse(watson_output, ground_truth):
 
-    with open(p_file,'r') as f:
-        data = json.load(f)
-
+    #will return these
     test_vector = []
     truth_vector = []
-    for i in data:
-        test_vector.append(float(i["score"]))
-        truth_vector.append(int(i["class"]))
+
+    with open(ground_truth,'r') as f:
+        data = json.load(f)
+
+    with open(watson_output,'r') as f:
+        watson = json.load(f)
+
+    d = {}#dictionary for files
+    for entry in range(len(data)):
+        d[data[entry]['filename']] = data[entry]['class']
+
+
+    files = []#files used to train
+    for entry in range(len(watson['images'])):
+        print(entry)
+        files.append(os.path.basename(watson['images'][entry]['image']))
+        truth_vector.append( float(watson['images'][entry]['classifiers'][0]['classes'][0]["score"]))
+
+    for f in files:
+        test_vector.append(float(d[f]));
+
+    #Check if u desire, Note: Should be assert statement
+    #print(len(test_vector))
+    #print(len(truth_vector))
 
     return [test_vector,truth_vector]
 
