@@ -21,6 +21,8 @@ import numpy as np
 import sys, argparse
 import os
 
+
+
 def parse(watson_output, ground_truth):
 
     #will return these
@@ -40,7 +42,6 @@ def parse(watson_output, ground_truth):
 
     files = []#files used to train
     for entry in range(len(watson['images'])):
-        print(entry)
         files.append(os.path.basename(watson['images'][entry]['image']))
         truth_vector.append( float(watson['images'][entry]['classifiers'][0]['classes'][0]["score"]))
 
