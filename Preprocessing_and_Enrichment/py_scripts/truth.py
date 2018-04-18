@@ -14,7 +14,7 @@ def find_truth():
 			else:
 				classifier = 1
 
-			with open('truth_labels.json', 'a') as outfile:
+			with open('mixed_truth_labels.json', 'a') as outfile:
 			    json.dump({
 			    "filename": fname,
 			    "class": classifier,

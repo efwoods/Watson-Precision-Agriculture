@@ -1,0 +1,261 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/12_Flight 1_Hydrangea Quercifolia_None.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/11_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/3_Flight 1_Spirea_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_165.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/1_Flight 1_Spirea_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/13_Flight 1_Cornus Obliqua_None_rotation_degree_130.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/13_Flight 1_Cornus Obliqua_None_rotation_degree_75.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/4_Flight 1_Hydrangea Quercifolia_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.911, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/4_Flight 1_Hydrangea Quercifolia_None.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/19_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/15_Flight 1_Spirea_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/10_Flight 1_Spirea_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/1_Flight 1_Cornus Obliqua_None_rotation_degree_40.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.001, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/1_Flight 1_Hydrangea Quercifolia_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.869, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/6_Flight 1_Spirea_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.915, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_220.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Flight_1_Cornus_Obliqua_High_Water_Stress_classifier/Flight_1_Mixed_test_High_Water_Stress.zip/Flight_1_Mixed_test_High_Water_Stress/3_Flight 1_Cornus Obliqua_None_rotation_degree_215.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "positive"
+            }
+          ], 
+          "classifier_id": "Flight1_Cornus_Obliqua_High_Wa_1884237233", 
+          "name": "Flight1_Cornus_Obliqua_High_Water_Stress"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 17
+}
