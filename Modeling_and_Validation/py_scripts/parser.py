@@ -23,7 +23,7 @@ import os
 
 
 
-def parse(watson_output, ground_truth):
+def parse(watson_output, ground_truth, class_num):
 
     #will return these
     test_vector = []
@@ -43,7 +43,7 @@ def parse(watson_output, ground_truth):
     files = []#files used to train
     for entry in range(len(watson['images'])):
         files.append(os.path.basename(watson['images'][entry]['image']))
-        truth_vector.append( float(watson['images'][entry]['classifiers'][0]['classes'][0]["score"]))
+        truth_vector.append( float(watson['images'][entry]['classifiers'][0]['classes'][class_num]["score"]))
 
     for f in files:
         test_vector.append(float(d[f]));
