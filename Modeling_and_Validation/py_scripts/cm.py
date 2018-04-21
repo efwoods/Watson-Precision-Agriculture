@@ -27,10 +27,10 @@ import sys, argparse
 from sklearn.metrics import confusion_matrix
 
 
-def plotConfusionMatrix(truth_data,watson_data,cmap=plt.cm.Blues):
+def plotConfusionMatrix(truth_data,watson_data,threshold,cmap=plt.cm.Blues):
     pred = []
     for i in watson_data:
-        if(i > .90):
+        if(i > threshold):
             pred.append(1)
         else:
             pred.append(0)
@@ -54,6 +54,8 @@ if __name__ == '__main__':
     parser.add_argument('--watson_output', help='file name', type=str, required=True)
     parser.add_argument('--ground_truth', help='file name', type=str, required=True)
     parser.add_argument('--class_num', help='class number to use from json', type=int, required=True)
+    parser.add_argument('--threshold', help='threshhold for prediction', type=float, required=True)
+
 
     args = parser.parse_args()
 
@@ -62,4 +64,4 @@ if __name__ == '__main__':
     ground_truth = np.asarray(parsed_data[1])
 
 
-    plotConfusionMatrix(watson_data,ground_truth)
+    plotConfusionMatrix(watson_data,ground_truth,args.threshold)
