@@ -83,52 +83,22 @@ def plotRoc(info):
     plt.legend(loc="lower right")
     plt.show()
 
-def plotConfusionMatrix(y_test, y_pred,cmap=plt.cm.Blues):
-    pred = []
-    for i in watson_data:
-        if(i > .5):
-            pred.append(1)
-        else:
-            pred.append(0)
-    # Compute confusion matrix
-    cm = confusion_matrix(y_test, pred)
-
-    plt.figure()
-    plt.imshow(cm,cmap=cmap)#(cm, interpolation='nearest', cmap=cmap)
-    plt.title("Confusion Matrix")
-    plt.tight_layout()
-    plt.ylabel('True label')
-    plt.xlabel('Predicted label')
-    plt.show()
-
-
-
-
-
 
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Parse the Json')
     parser.add_argument('--watson_output', help='file name', type=str, required=True)
     parser.add_argument('--ground_truth', help='file name', type=str, required=True)
-    parser.add_argument('--numclasses', help='file name', type=int, required=True)
+    parser.add_argument('--class_num', help='file name', type=int, required=True)
 
     args = parser.parse_args()
 
-    parsed_data = parse(args.watson_output,args.ground_truth, args.numclasses)
+    parsed_data = parse(args.watson_output,args.ground_truth, args.class_num)
     watson_data = np.asarray(parsed_data[0])
     ground_truth = np.asarray(parsed_data[1])
-    #data = calcRocMulti(args.numclasses,ground_truth,watson_data)
-    #print(watson_data)
-    #print(ground_truth)
-    data = calcRocSingle(watson_data,ground_truth)
-    pred = []
-    for i in watson_data:
-        if(i > .5):
-            pred.append(1)
-        else:
-            pred.append(0)
 
-    print(confusion_matrix(watson_data,np.asarray(pred)))
+    data = calcRocSingle(watson_data,ground_truth)
+
+
+
     plotRoc(data)
-    plotConfusionMatrix(watson_data,ground_truth)

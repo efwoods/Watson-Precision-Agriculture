@@ -30,14 +30,14 @@ def parse(watson_output, ground_truth, class_num):
     truth_vector = []
 
     with open(ground_truth,'r') as f:
-        data = json.load(f)
+        truth = json.load(f)
 
     with open(watson_output,'r') as f:
         watson = json.load(f)
 
     d = {}#dictionary for files
-    for entry in range(len(data)):
-        d[data[entry]['filename']] = data[entry]['class']
+    for entry in range(len(truth)):
+        d[truth[entry]['filename']] = truth[entry]['class']
 
 
     files = []#files used to train
@@ -51,6 +51,9 @@ def parse(watson_output, ground_truth, class_num):
     #Check if u desire, Note: Should be assert statement
     #print(len(test_vector))
     #print(len(truth_vector))
+
+    print("The Ground Truth is: " + str(truth_vector))
+    print("The Watson Output is: " + str(test_vector))
 
     return [test_vector,truth_vector]
 
