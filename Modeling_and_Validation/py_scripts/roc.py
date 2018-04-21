@@ -24,13 +24,7 @@ from sklearn.metrics import classification_report,confusion_matrix
 import sys, argparse
 from sklearn.metrics import confusion_matrix
 
-#Step 1,
-# get data from Json
 
-#Step 2
-# Compute ROC curve and ROC area for each class
-# y_score = parsed from watson
-# y_test = a file to be read in
 def calcRocMulti(n_classes,y_test, y_score):
     fpr = dict()
     tpr = dict()
@@ -53,16 +47,9 @@ def calcRocSingle(y_test, y_score):
     fpr, tpr, _ = roc_curve(y_test, y_score)
     roc_auc = auc(fpr, tpr)
 
-    #print(fpr)
-    #print(tpr)
-    #print(roc_auc)
-
-    # # Compute micro-average ROC curve and ROC area
-    # fpr["micro"], tpr["micro"], _ = roc_curve(y_test.ravel(), y_score.ravel())
-    # roc_auc["micro"] = auc(fpr["micro"], tpr["micro"])
-
     return [fpr,tpr,roc_auc]
-#Step 3
+
+
 #plot the data
 def plotRoc(info):
 
@@ -98,7 +85,5 @@ if __name__ == '__main__':
     ground_truth = np.asarray(parsed_data[1])
 
     data = calcRocSingle(watson_data,ground_truth)
-
-
 
     plotRoc(data)
