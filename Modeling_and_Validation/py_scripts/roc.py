@@ -10,8 +10,6 @@
 
 
 '''
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 from itertools import cycle
@@ -117,7 +115,7 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    parsed_data = parse(args.watson_output,args.ground_truth)
+    parsed_data = parse(args.watson_output,args.ground_truth, args.numclasses)
     watson_data = np.asarray(parsed_data[0])
     ground_truth = np.asarray(parsed_data[1])
     #data = calcRocMulti(args.numclasses,ground_truth,watson_data)

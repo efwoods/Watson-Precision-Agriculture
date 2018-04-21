@@ -1,0 +1,466 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/3_Flight 1_Cornus Obliqua_None_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.384, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/3_Flight 1_Cornus Obliqua_None.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.054, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/2_Flight 1_Cornus Obliqua_None_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.009, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/1_Flight 1_Cornus Obliqua_None_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.002, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.63, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.12, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.904, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.005, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/13_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/13_Flight 1_Cornus Obliqua_None_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/3_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.01, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.009, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/2_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/13_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/3_Flight 1_Cornus Obliqua_None_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.013, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.004, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/2_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/1_Flight 1_Cornus Obliqua_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.575, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.005, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/Sepate Conditions Ground Truth/Flight_1_Cornus_Only_High_Water_Truth.zip/Flight_1_Cornus_Only_High_Water_Truth/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 3, 
+  "images_processed": 20
+}

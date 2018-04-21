@@ -1,0 +1,466 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.058, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.35, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.005, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.381, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.778, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.031, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.03, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.575, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.005, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.01, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.903, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.008, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.006, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.903, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.07, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.059, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.894, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.001, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.271, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.026, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.011, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.009, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.903, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.07, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.357, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.783, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0.26, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.019, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Low_Phosphorus_Fertilizer"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Low_Water_Stress"
+            }
+          ], 
+          "classifier_id": "Cornus_Obliqua_Classifier_107438927", 
+          "name": "Cornus_Obliqua_Classifier"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 3, 
+  "images_processed": 20
+}
