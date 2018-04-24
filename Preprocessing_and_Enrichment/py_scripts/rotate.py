@@ -38,10 +38,10 @@ def process(trainingDirectory, testDirectory, split_count):
 
 # parse arguements
 parser = argparse.ArgumentParser(description='Curate a set of data for Modeling and Validation')
-parser.add_argument('--positive', help='Directory to the examples you want Watson to recognize\n\n', type=str, required=True)
-parser.add_argument('--negative', help='Directory to the examples Watson should not recognize\n', type=str, required=True)
-parser.add_argument('--split', help='SPLITS the data. Accepts an integer between 0 and 100. This value indicates the percentage of images to be used as TRAINING images. The remaining will be rotated and sorted as TEST images\n', type=int, required=True)
-parser.add_argument('--destination', help='Final DESTINATION directory. The final destination is expected to be located in Modeling and Validation\n', type=str, required=True)
+parser.add_argument('--p', help='Directory to the examples you want Watson to recognize\n\n', type=str, required=True)
+parser.add_argument('--n', help='Directory to the examples Watson should not recognize\n', type=str, required=False)
+parser.add_argument('--s', help='SPLITS the data. Accepts an integer between 0 and 100. This value indicates the percentage of images to be used as TRAINING images. The remaining will be rotated and sorted as TEST images\n', type=int, required=True)
+parser.add_argument('--d', help='Final DESTINATION directory. The final destination is expected to be located in Modeling and Validation\n', type=str, required=True)
 args = parser.parse_args()
 
 # validate that user argument input is acceptable

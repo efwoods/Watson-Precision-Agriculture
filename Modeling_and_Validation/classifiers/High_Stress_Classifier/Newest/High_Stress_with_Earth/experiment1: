@@ -1,0 +1,306 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/4_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.548, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/2_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.919, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/13_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.016, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/2_Flight 1_Hydrangea Quercifolia_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/7_Flight 1_Spirea_Healthy_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.883, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/7_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.908, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.91, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/6_Flight 1_Hydrangea Quercifolia_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.03, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/2_Flight 1_Spirea_Healthy_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/11_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.763, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/3_Flight 1_Hydrangea Quercifolia_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/1_Flight 1_Hydrangea Quercifolia_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/5_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.914, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/2_Flight 1_Hydrangea Quercifolia_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.908, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment1: Are_These_High_Water_Stress_Or_Healthy?/Are_These_High_Water_Stress_Or_Healthy_Test1.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.919, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 20
+}

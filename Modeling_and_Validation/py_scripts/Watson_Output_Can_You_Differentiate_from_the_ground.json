@@ -1,0 +1,306 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.229, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.167, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.034, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.017, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2.JPG", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.07, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None7.JPG", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.274, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.423, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.04, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None7_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.205, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.517, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.237, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.547, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None7_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.458, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None7_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.701, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.902, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3.JPG", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.891, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None2_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.094, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None7_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.72, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.895, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/Can_You_differentiate_from_the_ground_Test2.zip/High Stress Test Images 2/None3_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.643, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 20
+}
