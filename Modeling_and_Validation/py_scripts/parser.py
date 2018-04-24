@@ -51,6 +51,9 @@ def parse(watson_output, ground_truth, class_num):
     #Check if u desire, Note: Should be assert statement
     #print(len(test_vector))
     #print(len(truth_vector))
+    swap_vector = test_vector
+    test_vector = truth_vector
+    truth_vector = swap_vector
 
     print("The Ground Truth is: " + str(truth_vector))
     print("The Watson Output is: " + str(test_vector))

@@ -1,0 +1,306 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.903, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.652, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.885, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.19, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.13, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.911, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.379, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.016, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.044, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.011, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.003, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.89, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/4_Flight 1_Cornus Obliqua_Low Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.146, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.894, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/Cornus_Condition_Model_and_Validation/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images.zip/20_Cornus_Only_Mixed_Conditions_Watson_Test_Images/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.661, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_210568720", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 20
+}

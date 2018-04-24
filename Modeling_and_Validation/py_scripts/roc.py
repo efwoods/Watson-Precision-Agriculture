@@ -84,6 +84,6 @@ if __name__ == '__main__':
     watson_data = np.asarray(parsed_data[0])
     ground_truth = np.asarray(parsed_data[1])
 
-    data = calcRocSingle(watson_data,ground_truth)
+    data = calcRocSingle(ground_truth,watson_data)
 
     plotRoc(data)

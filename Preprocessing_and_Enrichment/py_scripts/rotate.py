@@ -1,6 +1,3 @@
-# Input: Void
-# Output: a rotated image
-
 import sys, os, shutil, zipfile, json, argparse, re
 
 #from truth.py import find_truth
@@ -34,40 +31,17 @@ def process(trainingDirectory, testDirectory, split_count):
 		else:
 			print(fname)
 			rotate(fname, testDirectory)
-'''	
-			with open('truth.json', 'w') as outfile:
-			    json.dump({
-			    "filename":filename,
-			    "class": args.c,
-			    "type": args.type,
-			    "score": '-1' 
-			     }, outfile)
-'''
-#	print('')
-
-
-#print(args)
-
-#workingDirectory = '/home/efwoods/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Data/Flight 1/Spirea/Healthy
-
-#savingDirectory = '/home/efwoods/watson/Watson-Precision-Agriculture/Preprocessing_and_Enrichment/Data/Flight 1/Spirea/Rotated_Cropped_Healthy_Spirea'
 
 # walks through the folder of the current working directory, then each subfolder, then each file. 
 
-#For the first for files, each file is rotated by 5 degrees and saved until the rotation completes a full rotation cycle of 360 degrees. 
-
-#This results in 72 images including the original file. 
-
-#These images are saved and moved to a new location before the new images are zipped.
-
-#os.mkdir(args.sD)
+#For the first for files, each file is rotated by 45 degrees and saved until the rotation completes a full rotation cycle of 360 degrees. 
 
 # parse arguements
 parser = argparse.ArgumentParser(description='Curate a set of data for Modeling and Validation')
-parser.add_argument('--p', help='Directory to the POSITIVE examples', type=str, required=True)
-parser.add_argument('--n', help='Directory to the NEGATIVE examples', type=str, required=False)
-parser.add_argument('--s', help='SPLITS the data. Accepts an int between 0 and 100. This value indicates the percentage of images to be used as TRAINING images.', type=int, required=True)
-parser.add_argument('--d', help='Final DESTINATION directory. Expected to be located in Modeling and Validation', type=str, required=True)
+parser.add_argument('--positive', help='Directory to the examples you want Watson to recognize\n\n', type=str, required=True)
+parser.add_argument('--negative', help='Directory to the examples Watson should not recognize\n', type=str, required=True)
+parser.add_argument('--split', help='SPLITS the data. Accepts an integer between 0 and 100. This value indicates the percentage of images to be used as TRAINING images. The remaining will be rotated and sorted as TEST images\n', type=int, required=True)
+parser.add_argument('--destination', help='Final DESTINATION directory. The final destination is expected to be located in Modeling and Validation\n', type=str, required=True)
 args = parser.parse_args()
 
 # validate that user argument input is acceptable
@@ -133,41 +107,7 @@ if(args.n):
 
 		# create ground_truth json file 
 		print(testSaveDirectory)
-	#	os.chdir(testSaveDirectory)
-	#	find_truth()
-	####	
-
-	#	# zip folders for Modeling and Validation
-	#	os.chdir(parentDir)
-	#	src = parentDir
-	#
-	#	print('Beginning Zipping')
-	#
-	#	shutil.make_archive(positiveSaveDirectory, 'zip')
-	#
-	#	print('Zipping Test')	
-	#		
-	#	shutil.make_archive(testSaveDirectory, 'zip')
-	#	print('Beginning Zipping  Negative')
-	#	shutil.make_archive(negativeSaveDirectory, 'zip')
-
 	
-	#	print('Completed zipping')
-	#	src = parentDir
-	#	dst = '/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers'
-	#	dst = args.d + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
-
-	#	shutil.copytree(src, dst, symlinks=False, ignore=None)
-	#	print('Completed copying tree')
-	#	shutil.rmtree(src)
-
-		print('Rotate.py Complete, Meatbag')
-	
-#workingDirectory = args.p
-#os.chdir(workingDirectory)	# move to the workingDirectory
-
-#plt.show
-
 else:
 	if ((positive_count == 0) or (positive_count == positive_image_total)): # positive_count must be between 0 and the total number of images in the file to leave data for the test data
 
@@ -218,40 +158,7 @@ else:
 
 		# create ground_truth json file 
 		print(testSaveDirectory)
-	#	os.chdir(testSaveDirectory)
-	#	find_truth()
-	####	
 
-	#	# zip folders for Modeling and Validation
-	#	os.chdir(parentDir)
-	#	src = parentDir
-	#
-	#	print('Beginning Zipping')
-	#
-	#	shutil.make_archive(positiveSaveDirectory, 'zip')
-	#
-	#	print('Zipping Test')	
-	#		
-	#	shutil.make_archive(testSaveDirectory, 'zip')
-	#	print('Beginning Zipping  Negative')
-	#	shutil.make_archive(negativeSaveDirectory, 'zip')
-
-	
-	#	print('Completed zipping')
-	#	src = parentDir
-	#	dst = '/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers'
-	#	dst = args.d + "/"+ targetName + "_processed" + "_" + str(percent) + "%split"
-
-	#	shutil.copytree(src, dst, symlinks=False, ignore=None)
-	#	print('Completed copying tree')
-	#	shutil.rmtree(src)
-
-		print('Rotate.py Complete, Meatbag')
-	
-#workingDirectory = args.p
-#os.chdir(workingDirectory)	# move to the workingDirectory
-
-#plt.show
 print('Test Save Dir:')
 print(testSaveDirectory)
 print('Positive Save Dir:')

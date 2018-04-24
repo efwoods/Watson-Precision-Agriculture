@@ -1,0 +1,466 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.221, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.806, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/3_Flight 1_Hydrangea Quercifolia_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.003, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Hydrangea Quercifolia_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.905, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.903, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.002, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.011, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/7_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.863, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.047, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.093, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/13_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.001, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.067, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.001, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/6_Flight 1_Hydrangea Quercifolia_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/1_Flight 1_Hydrangea Quercifolia_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.905, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.866, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.149, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.032, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.006, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Hydrangea Quercifolia_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.904, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.001, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.905, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Spirea_Healthy_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.001, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.084, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.727, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/11_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.511, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.57, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.106, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.001, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.905, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.001, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.001, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.021, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.901, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/7_Flight 1_Spirea_Healthy_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.407, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0.011, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.657, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.102, 
+              "class": "Cornus_Obliqua_High_Water_Stress"
+            }, 
+            {
+              "score": 0, 
+              "class": "Hydrangea_Quercifolia_High_Water_Stress"
+            }, 
+            {
+              "score": 0.884, 
+              "class": "Spirea_High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_355801194", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 3, 
+  "images_processed": 20
+}

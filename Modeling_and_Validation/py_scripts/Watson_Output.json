@@ -1,0 +1,306 @@
+{
+  "images": [
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/7_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.909, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/1_Flight 1_Cornus Obliqua_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/3_Flight 1_Hydrangea Quercifolia_None_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.004, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/11_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.759, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Hydrangea Paniculata_Healthy.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.543, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/7_Flight 1_Spirea_Healthy_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.88, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.919, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Spirea_Healthy_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.919, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/4_Flight 1_Spirea_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/6_Flight 1_Hydrangea Quercifolia_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.029, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Hydrangea Quercifolia_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/13_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.015, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.91, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/2_Flight 1_Hydrangea Quercifolia_High Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.907, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/1_Flight 1_Hydrangea Quercifolia_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Hydrangea Paniculata_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.914, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }, 
+    {
+      "image": "../classifiers/High_Stress_Classifier/High Stress Test Images.zip/High Stress Test Images/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_1578145499", 
+          "name": "High_Water_Stress"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 20
+}
