@@ -27,7 +27,7 @@ import sys, argparse
 from sklearn.metrics import confusion_matrix
 
 
-def plotConfusionMatrix(truth_data,watson_data,threshold,cmap=plt.cm.Blues):
+def plotConfusionMatrix(watson_data,truth_data,threshold,output,cmap=plt.cm.Blues):
     pred = []
     for i in watson_data:
         if(i > threshold):
@@ -35,17 +35,22 @@ def plotConfusionMatrix(truth_data,watson_data,threshold,cmap=plt.cm.Blues):
         else:
             pred.append(0)
     # Compute confusion matrix
-    cm = confusion_matrix(truth_data, pred)
+    print(pred)
+    cm = confusion_matrix(truth_data, pred,)
 
     print(confusion_matrix(truth_data,np.asarray(pred)))
 
     plt.figure()
-    sns.heatmap(cm,annot=True,cmap=cmap)#(cm, interpolation='nearest', cmap=cmap)
-    plt.title("Confusion Matrix")
+    ax = sns.heatmap(cm,annot=True,cmap=cmap,cbar=False,xticklabels =["Predicted Positive", "Predicted Negative" ], yticklabels=["Actual Positive", "Actual Negative" ])#(cm, interpolation='nearest', cmap=cmap)
+    ax.texts[0].set_text("FN: " +ax.texts[0].get_text())
+    ax.texts[1].set_text("TN: " +ax.texts[1].get_text())
+    ax.texts[2].set_text("TP: " +ax.texts[2].get_text())
+    ax.texts[3].set_text("FP: " +ax.texts[3].get_text())
+    plt.title('Confusion Matrix for High Water Stress Detection')
     #plt.tight_layout()
-    plt.ylabel('True label')
-    plt.xlabel('Predicted label')
-    plt.show()
+
+    #plt.show()
+    plt.savefig(output)
 
 
 if __name__ == '__main__':
@@ -55,6 +60,7 @@ if __name__ == '__main__':
     parser.add_argument('--ground_truth', help='file name', type=str, required=True)
     parser.add_argument('--class_num', help='class number to use from json', type=int, required=True)
     parser.add_argument('--threshold', help='threshhold for prediction', type=float, required=True)
+    parser.add_argument('--output', help='output', type=str, required=True)
 
 
     args = parser.parse_args()
@@ -64,4 +70,4 @@ if __name__ == '__main__':
     ground_truth = np.asarray(parsed_data[1])
 
 
-    plotConfusionMatrix(watson_data,ground_truth,args.threshold)
+    plotConfusionMatrix(watson_data,ground_truth,args.threshold,args.output)
