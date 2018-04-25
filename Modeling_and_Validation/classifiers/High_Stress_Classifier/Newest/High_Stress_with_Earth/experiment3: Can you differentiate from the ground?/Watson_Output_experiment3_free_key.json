@@ -1,0 +1,306 @@
+{
+  "images": [
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.016, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.063, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.002, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.901, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/None2_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/None2_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/None2_rotation_degree_90.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_225.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.762, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/4_Flight 1_Cornus Obliqua_Low Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.027, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/5_Flight 1_Cornus Obliqua_High Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.918, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/2_Flight 1_Cornus Obliqua_Low Phosphorus Fertilizer.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.006, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/4_Flight 1_Cornus Obliqua_Low Water Stress.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.197, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_270.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/5_Flight 1_Cornus Obliqua_High Water Stress_rotation_degree_315.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.92, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/1_Flight 1_Cornus Obliqua_None_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.007, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/1_Flight 1_Cornus Obliqua_None_rotation_degree_135.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0.013, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/1_Flight 1_Cornus Obliqua_None_rotation_degree_180.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/None2_rotation_degree_45.png", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }, 
+    {
+      "image": "/home/efwoods/Watson-Precision-Agriculture/Modeling_and_Validation/classifiers/High_Stress_Classifier/Newest/High_Stress_with_Earth/experiment3: Can you differentiate from the ground?/experiment3.zip/High Stress Test Images 2/None2.JPG", 
+      "classifiers": [
+        {
+          "classes": [
+            {
+              "score": 0, 
+              "class": "High_Water_Stress"
+            }
+          ], 
+          "classifier_id": "High_Water_Stress_Classifier_1850460048", 
+          "name": "High_Water_Stress_Classifier"
+        }
+      ]
+    }
+  ], 
+  "custom_classes": 1, 
+  "images_processed": 20
+}

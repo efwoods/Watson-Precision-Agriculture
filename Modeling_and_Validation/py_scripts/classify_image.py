@@ -9,7 +9,7 @@ IBM_key = '2dc79bad5c8e2677012abe8fbff37d296cec070c'
 
 visual_recognition = VisualRecognitionV3(
     '2016-05-20',
-    api_key= IBM_key)
+    api_key= free_key)
 
 with open(sys.argv[1], 'rb') as images_file:#, open(sys.argv[2], 'rb') as img2:
     classes = visual_recognition.classify(
