@@ -51,7 +51,7 @@ def calcRocSingle(y_test, y_score):
 
 
 #plot the data
-def plotRoc(info):
+def plotRoc(info,output):
 
     fpr = info[0]
     tpr = info[1]
@@ -60,15 +60,15 @@ def plotRoc(info):
     plt.figure()
     lw = 2
     plt.plot(fpr, tpr, color='darkorange',
-             lw=lw, label='ROC curve (area = %0.2f)' % roc_auc)
-    plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--')
+             lw=lw, label='Watson ROC curve (area = %0.2f)' % roc_auc)
+    plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--',label='Random ROC curve (area = %0.2f)' % (.50))
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
     plt.xlabel('False Positive Rate')
     plt.ylabel('True Positive Rate')
-    plt.title('Test Example')
+    plt.title('ROC Curve for High Water Stress Detection')
     plt.legend(loc="lower right")
-    plt.show()
+    plt.savefig(output)
 
 
 if __name__ == '__main__':
@@ -77,6 +77,7 @@ if __name__ == '__main__':
     parser.add_argument('--watson_output', help='file name', type=str, required=True)
     parser.add_argument('--ground_truth', help='file name', type=str, required=True)
     parser.add_argument('--class_num', help='file name', type=int, required=True)
+    parser.add_argument('--output', help='output', type=str, required=True)
 
     args = parser.parse_args()
 
@@ -86,4 +87,4 @@ if __name__ == '__main__':
 
     data = calcRocSingle(ground_truth,watson_data)
 
-    plotRoc(data)
+    plotRoc(data,args.output)
