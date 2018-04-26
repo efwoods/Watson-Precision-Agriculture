@@ -42,10 +42,10 @@ def plotConfusionMatrix(watson_data,truth_data,threshold,output,cmap=plt.cm.Blue
 
     plt.figure()
     ax = sns.heatmap(cm,annot=True,cmap=cmap,cbar=False,xticklabels =["Predicted Positive", "Predicted Negative" ], yticklabels=["Actual Positive", "Actual Negative" ])#(cm, interpolation='nearest', cmap=cmap)
-    ax.texts[0].set_text("FN: " +ax.texts[0].get_text())
-    ax.texts[1].set_text("TN: " +ax.texts[1].get_text())
-    ax.texts[2].set_text("TP: " +ax.texts[2].get_text())
-    ax.texts[3].set_text("FP: " +ax.texts[3].get_text())
+    ax.texts[0].set_text("FP: " + ax.texts[0].get_text())
+    ax.texts[1].set_text("TN: " + ax.texts[1].get_text())
+    ax.texts[2].set_text("TP: " + ax.texts[2].get_text())
+    ax.texts[3].set_text("FN: " + ax.texts[3].get_text())
     plt.title('Confusion Matrix for High Water Stress Detection')
     #plt.tight_layout()
 
