@@ -1,0 +1,1 @@
+{"images": [{"image": "../classifiers/Spirea_Low_Phosphorus_Fertilizer_Cropped_Rotated/Test Images/12_Flight 1_Spirea_Healthy.png", "classifiers": [{"classes": [{"score": 0.824, "class": "positive"}], "classifier_id": "Low_Phosphorus_Spirea_1087454838", "name": "Low_Phosphorus_Spirea"}]}], "custom_classes": 1, "images_processed": 1}
